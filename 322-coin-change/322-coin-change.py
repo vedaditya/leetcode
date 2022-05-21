@@ -15,6 +15,5 @@ class Solution:
                     dp[val]=min(dp[val],1+min_(val-i))
             return dp[val]
         min_(amount)
-        print(dp,amount)
         return dp[amount] if dp[amount]!=float("inf") else -1
         
