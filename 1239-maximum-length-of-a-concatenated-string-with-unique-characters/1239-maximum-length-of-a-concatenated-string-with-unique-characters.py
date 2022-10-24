@@ -3,7 +3,6 @@ class Solution:
         
         self.ans=0
         
-        @cache
         def combine(self,i,subString):
             if i>=len(arr):
                 self.ans=max(self.ans,len(subString))
